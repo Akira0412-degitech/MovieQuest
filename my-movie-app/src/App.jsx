@@ -17,6 +17,9 @@ import PersonDetail from './components/PersonDetail';
 import './App.css';
 import { Navigate } from 'react-router-dom';
 import Profile from './components/profile';
+import Test from './components/test'; 
+
+
 
 
 function NotFoundPage(){
@@ -129,6 +132,7 @@ function AppBody({ isPanelOpen, setIsPanelOpen, handleLogout }) {
           <Route path="/person/:id" element={<PersonDetail />} />
           <Route path='*' element={<NotFoundPage />}></Route>
           <Route path='/profile' element={<Profile />}></Route>
+          <Route path='/test' element={<Test />}></Route>
         </Routes>
       </div>
     </div>
