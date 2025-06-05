@@ -1,0 +1,16 @@
+# 環境変数ファイル（秘密情報）
+.env
+
+# Node.js の依存パッケージ（重すぎるし再構築可能）
+node_modules/
+
+# ビルド結果
+dist/
+build/
+
+# ログや一時ファイル
+*.log
+
+# OSによる不要ファイル
+.DS_Store
+Thumbs.db
