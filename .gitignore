@@ -1,14 +1,11 @@
-# Node modules
-node_modules/
+# node_modules
+my-movie-app/node_modules/
+ServerSide_Application/node_modules/
 
 # Vite build output
-dist/
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+my-movie-app/dist/
 
 # dotenv
-.env
+**/.env
+
 
