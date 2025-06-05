@@ -12,6 +12,3 @@ yarn-error.log*
 # dotenv
 .env
 
-# OS-specific
-.DS_Store
-Thumbs.db
