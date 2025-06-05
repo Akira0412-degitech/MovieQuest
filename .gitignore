@@ -1,7 +1,7 @@
 # node_modules
 my-movie-app/node_modules/
 ServerSide_Application/node_modules/
-
+node_modules/
 # Vite build output
 my-movie-app/dist/
 
